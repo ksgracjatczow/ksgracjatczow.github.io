@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="styl.css">
+    <title>KS Gracja Tczów</title>
+	
+<script src="https://kit.fontawesome.com/791cbe35c9.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body onLoad="show5()">
+<div id="banner">
+  <img src="baner.jpg" alt="KS Gracja Tczów">
+</div>
+<div class="baner">
+
+</div>
+
+   <nav>
+  <a href="strgl.html">Aktualności</a> |
+  <a href="oklubie.html">O Klubie</a> |
+  <a href="druzyna.html">Drużyna</a> |
+  <a href="terminarz.html">Terminarz</a>|
+  <a href="eng/strgl.html"><img src="gb.png" alt="eng" title="English version of the site" style="height:10px;"></a> |	
+  <a><img src="polska.png" alt="eng" title="Polska wersja strony" onclick="alert('Jesteś na polskiej wersji strony')" style="height:10px;"></a> |	
+</nav>
+
+    
+	<div class="container">
+	<div class="left-column">
+<div class="club-info">
+  <img src="logo.png" alt="Logo klubu" class="logo">
+  <div class="text-info">
+   
+    <div class="address">
+      <h3><a href="https://tiny.pl/wpkl3">Adres</a></h3>
+      <hr class="line">
+	  <p>Nazwa: <span class="highlight">Klub Sportowy Gracja Tczów</span></p>
+      <p>Ulica: <span class="highlight">Tczów 124</span></p>
+      <p>Kod pocztowy: <span class="highlight">26-706, Tczów</span> </p>
+      <p>Województwo: <span class="highlight">Mazowieckie</span></p>
+    </div>
+	  <div class="address">
+      <h3>Historia klubu</h3>
+      <hr class="line">
+	  <p>KS Gracja Tczów to amatorski klub piłkarski założony w 2005 roku. Początkowo klub noszący barwy zielono-czarne, obecnie barwy czerwono-czarno-białe. Klub od początku swojego istnienia gra w b-klasie lokalnych rozgrywek piłkarskich.<br><br>
+
+W ciągu pierwszych kilku lat istnienia klubu, zostały utworzone roczniki 1997, 1998, a także 1999, który miał miejsce równo z rocznikiem 2002 i młodszymi. Dzięki ciężkiej pracy i zaangażowaniu zawodników i trenerów, zespół KS Gracja Tczów zaczynał stopniowo osiągać coraz lepsze wyniki.<br><br>
+
+Obecnie, skład główny KS Gracja Tczów gra w lidze okręgowej, a skład KS Gracja Tczów 2 gra w b-klasie. Klub stale się rozwija i stara się osiągać jak najlepsze wyniki, dzięki czemu jest lubiany i szanowany przez kibiców i całą społeczność.</p>
+	  </div>
+	  <div class="address">
+      <h3>Stadion</h3>
+      <hr class="line">
+	  <div class="image-container">
+    <img src="stadion.jpg" class="image" alt="stadion">
+	<p>  <i class="fa-sharp fa-solid fa-person-running"></i> Stadion: Gminny Stadion Sportowy w Tczowie <br><br>
+		<i class="fa-sharp fa-solid fa-people-group"></i> Pojemność: 1000 miejsc (250 siedzących) / oświetlenie - brak / boisko - 100mx60m </p>
+	
+	</div>
+	<h3>Napisz do nas</h3>
+<p  style="text-decoration:underline">Masz pytanie? Pisz śmiało, postaramy się odpowiedzieć jak najszybciej!</p>
+<form>
+  <label for="name">Imię:</label><br>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="email">Adres e-mail:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="message">Wiadomość:</label><br>
+  <textarea id="message" name="message"></textarea><br><br>
+
+  <input type="submit" value="Wyślij">
+</form>  
+
+<h3>Znajdziesz nas również na Facebooku</h3>
+<a href="https://www.facebook.com/KlubGracjaTczow" target="_blank">
+  <img src="facebook.png" alt="Facebook logo" style="height:200px;">
+</a>
+
+<script>
+  let facebookLink = document.getElementById("facebook-link");
+  facebookLink.addEventListener("click", function(event) {
+    event.preventDefault();
+    window.location.href = "https://www.facebook.com/KlubGracjaTczow/";
+  });
+</script>
+
+
+  </div>
+
+
+</div>
+</div>
+
+
+
+
+</div>
+
+ 
+<div class="container">
+    <div class="right-column">
+    <div class="main-content">
+    </div>
+	<div class="tlo">
+    <div class="next-match-container">
+	<h2>Następny mecz</h2> 
+        <div class="next-match">
+            
+            <div class="match-details">
+                <div class="team-logos1">
+				
+                    <img src="logo.png" alt="Team 1 Logo"> 
+				<p> Gracja Tczów</p>
+                </div>
+				<div class="napis">
+				 <p>vs</p>
+				</div>
+				  <div class="team-logos2">
+                    <img src="logo2.png" alt="Team 2 Logo">
+					<p> Zwolenianka Zwoleń</p>
+                </div>
+                
+            </div>
+        </div>
+		<div class="match-info">
+                    <p><i class="fa-solid fa-calendar-days"></i> Data: 24 Wrześnie 2023</p>
+                    <p><i class="fa-regular fa-clock"></i> Godzina rozpoczęcia: 17:00</p>
+                    <p><i class="fa-regular fa-futbol"></i> Stadion: Tczów</p>
+					<a href="zapowiedz.html" class="match-preview-button">Zapowiedź meczu</a>
+                </div>
+    </div>
+	</div>
+	<div class="table-container">
+    <h3>Tabela ligowa</h3>
+    <table>
+         <tr>
+            <th title="Pozycja">P</th>
+            <th>Nazwa klubu</th>
+            <th title="Mecze">M</th>
+            <th title="Zwycięstwa">Z</th>
+            <th title="Punkty">Pkt</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Gracja Tczów</td>
+			<td>10</td>
+            <td>7</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Zwolenianka Zwoleń</td>
+            <td>10</td>
+            <td>6</td>
+            <td>21</td>
+        </tr>
+		<tr>
+            <td>3.</td>
+            <td>Orzeł Wierzbica</td>
+            <td>10</td>
+            <td>5</td>
+            <td>19</td>
+        </tr>
+		<tr>
+            <td>4.</td>
+            <td>LKS Zalesice</td>
+            <td>10</td>
+            <td>4</td>
+            <td>17</td>
+        </tr>
+		<tr>
+            <td>5.</td>
+            <td>Broń Radom</td>
+            <td>10</td>
+            <td>3</td>
+            <td>15</td>
+        </tr>
+		<tr>
+            <td>6.</td>
+            <td>Wisła Solec</td>
+            <td>10</td>
+            <td>3</td>
+            <td>14</td>
+        </tr>
+		<tr>
+            <td>7.</td>
+            <td>Proch Pionki</td>
+            <td>10</td>
+            <td>2</td>
+            <td>11</td>
+        </tr>
+		<tr>
+            <td>8.</td>
+            <td>Video Ciepielów</td>
+            <td>10</td>
+            <td>1</td>
+            <td>9</td>
+        </tr>
+		<tr>
+            <td>9.</td>
+            <td>Gryfia Mirów</td>
+            <td>10</td>
+            <td>1</td>
+            <td>7</td>
+		<tr>
+            <td>10.</td>
+            <td>Oskar Przysucha</td>
+            <td>10</td>
+            <td>1</td>
+            <td>6</td>
+        </tr>
+		<tr>
+            <td>11.</td>
+            <td>Obornik Wielgie</td>
+            <td>10</td>
+            <td>1</td>
+            <td>5</td>
+        </tr>
+        
+		<tr>
+            <td>12.</td>
+            <td>Iłżanka Kazanów</td>
+            <td>10</td>
+            <td>0</td>
+            <td>3</td>
+        </tr>
+      
+    </table>
+	
+	<div class="poprzednia-kolejka">
+  <h3>Poprzednia kolejka</h3>
+  <table>
+    <tr>
+      <th>Gospodarz</th>
+      <th>Wynik</th>
+	  <th>Gość</th>
+    </tr>
+    <tr>
+      <td>Wisła Solec</td>
+      <td>1:0</td>
+	  <td>Proch Pionki</td>
+    </tr>
+    <tr>
+      <td>Video Ciepielów</td>
+     <td>2:3</td>
+	 <td>Gryfia Mirów</td>
+       </tr>
+    <tr>
+      <td>Iłżanka Kazanów</td>
+      <td>1:5</td>
+	  <td>Broń Radom</td>
+    </tr>
+	<tr class="spotkanie" onclick="location.href='przebieg.html'">
+      <td>Gracja Tczów</td>
+      <td>5:1</td>
+	  <td>LSK Zalesice</td>
+    </tr>
+	<tr>
+      <td>Zwolenianka Zwoleń</td>
+      <td>2:0</td>
+	  <td>Oskar Przysucha</td>
+    </tr>
+	<tr>
+      <td>Obornik Wielgie</td>
+      <td>3:1</td>
+	  <td>Orzeł Wierzbica</td>
+    </tr>
+  </table>
+</div>
+</div>
+	
+</div>
+</div>  
+</div>
+<footer>
+  <p>Copyright &copy;  KS GRACJA TCZÓW  Karol Rafalski </p>
+</footer>
+</body>
+</html>
